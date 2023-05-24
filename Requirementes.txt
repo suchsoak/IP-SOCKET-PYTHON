@@ -1,8 +1,4 @@
-# Requirementes.txt
-
-<ul>
-<li>python3</li>
-<li>Nmape</li>
-<li>Python-whois</li>
-<li>geocoder</li>
-</ul>
+python3
+Nmape
+Python-whois
+geocoder
