@@ -16,7 +16,7 @@ import os
 print('▌║█║▌│║▌│║▌║▌█║SOCKET▌│║▌║▌│║║▌█║▌║█\n')
 print('#############')
 print('BY: Max')
-print('GitHub:','URL')
+print('GitHub:','https://github.com/suchsoak')
 print('#############.\n')
 
 
