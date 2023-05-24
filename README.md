@@ -1,4 +1,4 @@
-# IP-SOCKET-PYTHON
+# IP-SOCKET-PYTHON-For-Windows
 # PENTESTS
 
 <img alt="Logo-Python" src="https://media0.giphy.com/media/LMt9638dO8dftAjtco/giphy.gif?cid=ecf05e479ntgwlfd551yf12omuk8pvmssn7kdm1fs6qd327e&ep=v1_stickers_search&rid=giphy.gif&ct=s" width="100"></img>
@@ -12,38 +12,7 @@ Se tiver problemas no código, ou qualquer comentário sobre, por favor me diga.
 If you have problems with the code, or any comments about it, please let me know. For me to fix immediately. Any criticism I'm accepting. THANK YOU!
 -------------------------------------------------------------------------------------------------------
 
-#Para LINUX Recomendo Fazer Um Shell Script Só Para Instalar Tudo Que Precisa De Uma Vez.
-
-Antes De Iniciar Baixe Os Requirimentos!
-
-Requirementes.txt
-
-python-whois
-
-nmap
-
-python3
-
-geocoder
-
-------
-
-EXEMPLO:
-
-Para Usuarios LINUX De sistemas Debian ou Ubuntu 
---
-
-Baixar Os Requirimentos
-
-sudo apt install nmap
-
-Se não tiver o python3 instalado:
-
-sudo apt install python3
-
---------
-
-Para WINDOWS:
+WINDOWS:
 --
 
 Instalar python
@@ -54,7 +23,6 @@ Depois executar no terminal (CMD ou PORWERSHELL) , com o python instalado:
 
 já com os requirimentos instalados
 
-----------
 E instalar o nmap:
 
 https://nmap.org/download
