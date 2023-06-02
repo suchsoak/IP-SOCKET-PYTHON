@@ -11,14 +11,11 @@ import os
 #O Script Está Em Desenvolvimento Muito Provavel Que Não Seja 100% Certeza Nas Buscas.
 #Utilizei O Nmap Para Ter Mais Certeza, Nas Buscas Das Portas Abertas.
 
-
-
 print('▌║█║▌│║▌│║▌║▌█║SOCKET▌│║▌║▌│║║▌█║▌║█\n')
 print('#############')
 print('BY: ~#M?x')
 print('GitHub:','https://github.com/suchsoak')
 print('#############.\n')
-
 
 #	whois     sibilo     traceroute     mtr     dns   
 
@@ -97,13 +94,8 @@ class ping_ns_():
 # command = f"ping -c 4 {host}"
 # os.system(command)
 
-
-# ip  177.137.4.253
-
-
 g = geocoder.ip (Host)
 go = geocoder.google (Host)
-
 
 #ip_whois = IPWhois(Host)
 #result = ip_whois.lookup_rdap()
@@ -164,7 +156,6 @@ s.settimeout(15.0) #Esperar 15 segundos, para analisar as portas uma de cada
 nenhuma = True
  #caso nenhuma porta seja encontrada
 
-
 ports = [21, 22, 23, 25, 53, 80, 110, 135, 139, 143, 443, 445, 993, 995]
 class Portas:    #Usei o class para deixar o codigo mais organizado
     time.sleep(6.0) 
@@ -205,57 +196,6 @@ class nmap():
     finally:
         print('\t\n')
         print('[-_-] Obrigado Por Usar O Meu PortScan/Loucura!')
-            
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                 #Se nenhuma porta for encontrada, será exibido.
-                                                    #As portas fechadas não irão aparecer     
-
-
-#----------------------------Outro Script Que Estava Em Desenvolvimento--------------------------------------------#                
-    #scaneado com nmap.
-    
-# class nmap():   
-#     nmap = nmap.PortScanner
-#     nmap.scan(Host,range)
-#     print("Scaneado as portas.")
-#     print(nmap.scan())
-#     print(nmap[Host].all_protocols())
-#     print(nmap[Host]['tcp'].keys())
-
-
-
-#Portas_Abertas = input('Mostrar portas abertas?\t' '(Y/N):')
-
-
-#----------------------------Outro Script Que Estava Em Desenvolvimento---------------------------------------------#
-
-
-# import socket
-
-# for client in range(1,500 ):
-#     client = client.socket(socket.AF_INET, socket.SOCK_STREAM)
-
 # try:
 #     client.connect('192.168.0.10', 8080)
 #     client.send('Eu sou o client\t')
