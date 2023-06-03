@@ -11,7 +11,13 @@ import os
 #O Script Está Em Desenvolvimento Muito Provavel Que Não Seja 100% Certeza Nas Buscas.
 #Utilizei O Nmap Para Ter Mais Certeza, Nas Buscas Das Portas Abertas.
 
-print('▌║█║▌│║▌│║▌║▌█║SOCKET▌│║▌║▌│║║▌█║▌║█\n')
+print(" ▄█▀▀▀█▄█ ▄▄█▀▀██▄   ▄▄█▀▀▀█▄█████▀ ▀███▀▀███▀▀▀██████▀▀██▀▀███")
+print("▄██    ▀███▀    ▀██▄██▀     ▀█ ██   ▄█▀    ██    ▀██▀   ██   ▀█")
+print("▀███▄   ██▀      ▀███▀       ▀ ██ ▄█▀      ██   █       ██     ")
+print("  ▀█████▄█        ███          █████▄      ██████       ██     ")
+print("▄     ▀███▄      ▄███▄         ██  ███     ██   █  ▄    ██     ")
+print("██     ████▄    ▄██▀██▄     ▄▀ ██   ▀██▄   ██     ▄█    ██     ")
+print("█▀█████▀  ▀▀████▀▀   ▀▀█████▀▄████▄   ███▄██████████  ▄████▄   ")
 print('#############')
 print('BY: ~#M?x')
 print('GitHub:','https://github.com/suchsoak')
