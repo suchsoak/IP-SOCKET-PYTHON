@@ -1,3 +1,3 @@
-Nmap
+nmap
 Python-whois
 geocoder
