@@ -141,11 +141,11 @@ class Portas:
             print('[*] Open: ', (port), (service(port)))
             print('**************')
             print('\t\n')  
-            nenhuma = False #Se for encontrada não será exibido
+            nenhuma = False 
     else:
         pass
         if nenhuma:
-            print("Nenhuma Porta Encontrada Pelo Scanner Socket.")
+            print("No ports found by scanner socket.")
 
 class nmap():
     try:
