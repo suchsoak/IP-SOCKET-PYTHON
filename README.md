@@ -52,20 +52,14 @@ Then run in the terminal (CMD or PORWERSHELL), with python installed:
    python3 ip.py
 ```
 
-The project took a long time to develop and I'm new to python, I intend to do other tools. In time I will update the IP-SOCKET-PYTHON
-
-
 >Don't forget to download the requirements
-
-### In the CMD or Powrshell terminal, you can start with: python3 IP.py
 
 ### And then the script runs.
 
 <br>
 
 # Maco OS:
-
-# Coming soon
+> Coming soon.
 
 <br>
 
@@ -74,6 +68,7 @@ The project took a long time to develop and I'm new to python, I intend to do ot
 # How use
 
 ## For use you need put ip address (000.000.0.0) or url (www.google.com)
+> IP or URL: www.google.com
 
 <hr>
 
@@ -91,6 +86,9 @@ All links used:
 | platform | https://docs.python.org/3/library/platform.html
 
 ### For ethical hackers and people who are interested in computer networks.
+
+### The project took a long time to develop and I'm new to python, I intend to do other tools. In time I will update the IP-SOCKET-PYTHON
+
 
 
 
