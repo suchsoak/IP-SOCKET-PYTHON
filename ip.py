@@ -4,14 +4,9 @@ import time
 import geocoder
 import platform
 import os
-import requests
 import colorama
 from colorama import Fore, Style
-#import nmap
-#from ipwhois import IPWhois
-
 #Socket site: https://docs.python.org/3/library/socket.html
-
 #The script is in development very likely not to be 100% sure in searches.
 colorama.init()
 print(Fore.RED)
@@ -30,11 +25,6 @@ Host = input(f'IP ou URL: ')
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 print(Style.RESET_ALL)
 
-
-# r = requests.get()
-
-
-
 if platform.system() == 'Windows': 
         # time.sleep(5.0)
          print("\n")
@@ -44,31 +34,6 @@ if platform.system() == 'Windows':
          print('---------------------------\n')
          command = f"ping -n 4 {Host}"
          os.system(command)
-
-        # print('---------------------------\n')
-        # print('[!] Nslookup -type=mx', Host)
-        # print('---------------------------')
-        # time.sleep(5.0)
-        # command_2 = f"nslookup -type=mx {Host}"
-        # os.system(command_2)
-        # print("\n")
-        # print("*****************************\n")
-        # print('---------------------------\n')
-        # print('[!] Tracert -h 8', Host)
-        # print('---------------------------\n')
-        # time.sleep(5.0)
-        # command_3 = f"tracert -h 8 {Host}"
-        # os.system(command_3)
-        # print("\n")
-        # print("*************************\n")
-        # print('---------------------------\n')
-        # print('[!] pathping -h 4', Host)
-        # print('---------------------------\n')
-        # time.sleep(5.0)
-        # command_4 = f"pathping -p 5.0 -h 4 {Host}"
-        # os.system(command_4)
-        # print("\n")
-
 elif platform.system() == 'Linux': 
         time.sleep(5.0)
         print("\n")
@@ -194,26 +159,4 @@ class Portas:
     except KeyboardInterrupt:
          print('program stopped')
     except Exception as erro:
-         print(erro)
-                    
-
-# class nmap():
-#     try:
-#         print('-----------------\t\n')
-#         print('For a scnner, more accurate...')
-#         print('-----------------')
-#         print('[!] Nmap -v -sV', Host)
-#         time.sleep(5.0)
-#         nmapscanner = f'nmap -v -sV {Host}'
-#         os.system(nmapscanner)  
-#         print('------------------\t\n')
-#         print('[!] Nmap -Pn', Host)
-#         print('\t\n')
-#         print('------------------')
-#         nmapscanner2 = f'nmap -Pn {Host}'
-#         os.system(nmapscanner2)
-#     except KeyboardInterrupt:
-#         print('program stopped')
-#     except Exception as erro:
-#         print(erro)
-
+         print(erro)              
