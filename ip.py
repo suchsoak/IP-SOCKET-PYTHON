@@ -20,7 +20,7 @@ print("░ ░▒  ░      |")
 print("░  ░  ░      |")
 print("      ░      |")
 print("\n")
-Host = input(f'IP ou URL: ') 
+Host = input(f'IP or URL: ') 
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 print(Style.RESET_ALL)
