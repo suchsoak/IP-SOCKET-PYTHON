@@ -11,31 +11,31 @@
 
 
 # How to install
-# Linux:
+## Linux
 > install the requirementes.txt
 
-## Place in the terminal:
+Place in the terminal:
 ```sh
    git clone https://github.com/suchsoak/IP-SOCKET-PYTHON.git
 ```
-### After enter in the files, and put:
+After enter in the files, and put:
 
 ```sh
     pip install -r requirementes.txt
 ```
 
-## Now start the script:
+Now start the script:
 
 ```sh
     python3 ip.py
 ```
 
-# WINDOWS:
+## WINDOWS
 
->install python:
+> install python:
 > https://www.python.org/
 
-## install Python-whois and geocoder
+install Python-whois and geocoder
 
 ```sh
     pip install Python-whois
