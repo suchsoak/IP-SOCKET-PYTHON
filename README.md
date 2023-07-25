@@ -68,14 +68,10 @@ Then run in the terminal (CMD or PORWERSHELL), with python installed:
 # How use
 
 ## For use you need put ip address (000.000.0.0) or url (www.google.com)
+
 > IP or URL: www.google.com
 
-<hr>
-
-Good Luck!
---------
-
-All links used:
+## All links used:
 | Libraries |  Links |
 | ------ | ------ |
 | python |  https://www.python.org/ 
@@ -85,9 +81,9 @@ All links used:
 | colorama | https://pypi.org/project/colorama/
 | platform | https://docs.python.org/3/library/platform.html
 
-### For ethical hackers and people who are interested in computer networks.
+> For ethical hackers and people who are interested in computer networks.
 
-### The project took a long time to develop and I'm new to python, I intend to do other tools. In time I will update the IP-SOCKET-PYTHON
+> The project took a long time to develop and I'm new to python, I intend to do other tools. In time I will update the IP-SOCKET-PYTHON
 
 
 
