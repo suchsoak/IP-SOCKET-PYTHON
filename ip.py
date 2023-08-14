@@ -141,8 +141,8 @@ service = socket.getservbyport
 s.settimeout(15.0) 
 no = True
  
-#ports = [21, 22, 23, 25, 53, 80, 110, 135, 139, 143, 443, 445, 993, 995]
-ports = range(1, 65535)
+ports = [21, 22, 23, 25, 53, 80, 8080, 53, 110, 135, 139, 143, 70,  443, 445, 993, 995]
+#ports = range(1, 65535)
 class Portas: 
     try:
         time.sleep(6.0) 
