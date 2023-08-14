@@ -45,7 +45,7 @@ elif platform.system() == 'Linux':
         print('---------------------------\n')
         command = f"ping -c 4 {Host}"
         os.system(command)
-        os.systen("clear")
+        os.system("clear")
 elif platform.system() == 'Darwin':
         time.sleep(5.0)
         print("\n")
