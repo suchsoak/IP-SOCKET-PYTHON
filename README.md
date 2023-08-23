@@ -21,6 +21,10 @@ Place in the terminal:
 After enter in the files, and put:
 
 ```sh
+   chmod +X requirementes.txt
+```
+
+```sh
     pip install -r requirementes.txt
 ```
 
