@@ -12,7 +12,7 @@
 
 # How to install
 ## Linux
-> install the requirementes.txt
+> install the `requirementes.txt`
 
 Place in the terminal:
 ```sh
@@ -39,7 +39,7 @@ Now start the script:
 > install python:
 > https://www.python.org/
 
-install Python-whois and geocoder
+install `Python-whois` and `geocoder`
 
 ```sh
     pip install Python-whois
@@ -56,7 +56,7 @@ Then run in the terminal (CMD or PORWERSHELL), with python installed:
    python3 ip.py
 ```
 
->Don't forget to download the requirements
+> Don't forget to download the requirements
 
 ### And then the script runs.
 
