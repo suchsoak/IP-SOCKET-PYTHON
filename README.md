@@ -11,7 +11,7 @@
 
 
 # How to install
-## Linux
+## Linux or MacOS
 > install the `requirementes.txt`
 
 Place in the terminal:
@@ -60,29 +60,6 @@ Then run in the terminal (CMD or PORWERSHELL), with python installed:
 > Don't forget to download the requirements
 
 ### And then the script runs.
-
-## Maco OS
-
-Place in the terminal:
-
-```sh
-   git clone https://github.com/suchsoak/IP-SOCKET-PYTHON.git
-```
-After enter in the files, and put:
-
-```sh
-   chmod +X requirementes.txt
-```
-
-```sh
-    pip install -r requirementes.txt
-```
-
-Now start the script:
-
-```sh
-    python3 ip.py
-```
 
 # How use
 
