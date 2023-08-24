@@ -15,6 +15,7 @@
 > install the `requirementes.txt`
 
 Place in the terminal:
+
 ```sh
    git clone https://github.com/suchsoak/IP-SOCKET-PYTHON.git
 ```
@@ -60,20 +61,34 @@ Then run in the terminal (CMD or PORWERSHELL), with python installed:
 
 ### And then the script runs.
 
-<br>
+## Maco OS
 
-# Maco OS:
-> Coming soon.
+Place in the terminal:
 
-<br>
+```sh
+   git clone https://github.com/suchsoak/IP-SOCKET-PYTHON.git
+```
+After enter in the files, and put:
 
-<hr>
+```sh
+   chmod +X requirementes.txt
+```
+
+```sh
+    pip install -r requirementes.txt
+```
+
+Now start the script:
+
+```sh
+    python3 ip.py
+```
 
 # How use
 
-## For use you need put ip address (000.000.0.0) or url (www.google.com)
-
-> IP or URL: www.google.com
+```sh
+   For use you need put `ip address` (000.000.0.0) or `url` (www.google.com)
+```
 
 ## All links used:
 | Libraries |  Links |
