@@ -1,14 +1,9 @@
 # IP-SOCKET-PYTHON
 
-<!-- <img alt="Logo-Python" src="https://media0.giphy.com/media/LMt9638dO8dftAjtco/giphy.gif?cid=ecf05e479ntgwlfd551yf12omuk8pvmssn7kdm1fs6qd327e&ep=v1_stickers_search&rid=giphy.gif&ct=s" width="100"></img> -->
-
 ## A scanner with socket, with information about a particular ip or url of a website.
 ### If you have problems with the code, or any comments about it, please let me know. For me to fix immediately. Any criticism I'm accepting. THANK YOU!
 
 > The script is in development, any errors can be fixed in the future.
-
-<br>
-
 
 # How to install
 ## Linux or MacOS
