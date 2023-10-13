@@ -15,7 +15,7 @@ from colorama import Fore, Style
 colorama.init() 
 print(Fore.RED)
 print("  ██████     |")
-print("▒██    ▒     | BY: ~#M?x ")
+print("▒██    ▒     | BY: suchsoak ")
 print("░ ▓██▄       | GitHub: https://github.com/suchsoak")
 print("  ▒   ██▒    | v:1.0.3")
 print("▒██████▒▒    |")
