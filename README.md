@@ -32,14 +32,13 @@ Now start the script:
 ```sh
    For use you need put `ip address` (000.000.0.0) or `url` (www.google.com)
 ```
-
 ## All links used:
+
 | Libraries |  Links |
 | ------ | ------ |
-| python |  https://www.python.org/ 
-| socket.py | https://docs.python.org/3/library/socket.html
+| socket | https://docs.python.org/3/library/socket.html
 | geocoder |  https://geocoder.pbh.gov.br/geocoder/
 | python-whois | https://pypi.org/project/python-whois/
 | colorama | https://pypi.org/project/colorama/
-| platform | https://docs.python.org/3/library/platform.html
+| requests | https://pypi.org/project/requests/
 
