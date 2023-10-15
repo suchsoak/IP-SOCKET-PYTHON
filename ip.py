@@ -12,17 +12,23 @@ import geocoder
 import colorama
 from colorama import Fore, Style
 
-colorama.init() 
-print(Fore.RED)
-print("  ██████     |")
-print("▒██    ▒     | BY: suchsoak ")
-print("░ ▓██▄       | GitHub: https://github.com/suchsoak")
-print("  ▒   ██▒    | v:1.0.3")
-print("▒██████▒▒    |")
-print("▒ ▒▓▒ ▒ ░    |")
-print("░ ░▒  ░      |")
-print("░  ░  ░      |")
-print("      ░      |")
+colorama.init()
+
+s1 = '''
+
+  ██████     |
+▒██    ▒     | BY: ~#M?x 
+░ ▓██▄       | GitHub: https://github.com/suchsoak
+  ▒   ██▒    | v:1.0.2
+▒██████▒▒    |
+▒ ▒▓▒ ▒ ░    |
+░ ░▒  ░      |
+░  ░  ░      |
+      ░      |
+
+'''
+
+print(s1)
 print("\n")
 Host = input(f'IP or URL: ') 
 
