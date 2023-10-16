@@ -14,11 +14,11 @@ Place in the terminal:
 After enter in the files, and put:
 
 ```sh
-   chmod +X requirementes.txt
+   chmod +X requirements.txt
 ```
 
 ```sh
-    pip install -r requirementes.txt
+    pip install -r requirements.txt
 ```
 
 Now start the script:
