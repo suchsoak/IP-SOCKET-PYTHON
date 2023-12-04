@@ -2,16 +2,17 @@
 
 A scanner with socket, with information about a particular ip or url of a website.
 
+>[!NOTE]
 > The script is in development, any errors can be fixed in the future.
 
 # How to install
 
-Place in the terminal:
+**Place in the terminal:**
 
 ```sh
    git clone https://github.com/suchsoak/IP-SOCKET-PYTHON.git
 ```
-After enter in the files, and put:
+**After enter in the files, and put:**
 
 ```sh
    chmod +X requirements.txt
@@ -21,7 +22,7 @@ After enter in the files, and put:
     pip install -r requirements.txt
 ```
 
-Now start the script:
+**Now start the script:**
 
 ```sh
     python3 ip.py
