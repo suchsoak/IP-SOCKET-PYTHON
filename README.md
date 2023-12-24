@@ -28,11 +28,44 @@ A scanner with socket, with information about a particular ip or url of a websit
     python3 ip.py
 ```
 
-# How it works
+# Usage
+
+>[!TIP]
+>I recommended use IP
 
 ```sh
-   For use you need put `ip address` (000.000.0.0) or `url` (www.google.com)
+
+usage: ip.py [-h] [-u TARGET] [-i TARGET]
+
+options:
+  -h, --help            show this help message and exit
+  -u TARGET, --url TARGET
+                        url
+  -i TARGET, --ip TARGET
+                        ip
+
 ```
+
+```sh
+python3 ip.py -i <ip_target>
+```
+or
+
+```sh
+ python3 ip.py -u <url_target>
+```
+
+## For ports, you can use a list or 1 by then, 65535
+
+```sh
+ 
+#ports = [21, 22, 23, 25, 53, 80, 8080, 53, 110, 135, 139, 143, 70,  443, 445, 993, 995]
+
+ports = range(1, 65535)
+
+```
+
+
 ## All links used:
 
 | Libraries |  Links |
