@@ -65,9 +65,6 @@ ports = range(1, 65535)
 
 ```
 
-
-## All links used:
-
 | Libraries |  Links |
 | ------ | ------ |
 | socket | https://docs.python.org/3/library/socket.html
@@ -75,4 +72,5 @@ ports = range(1, 65535)
 | python-whois | https://pypi.org/project/python-whois/
 | colorama | https://pypi.org/project/colorama/
 | requests | https://pypi.org/project/requests/
+|  urlib   | https://docs.python.org/3/library/urllib.html
 
