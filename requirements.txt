@@ -2,3 +2,4 @@ Python-whois
 geocoder
 colorama
 requests
+argparse
