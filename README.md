@@ -73,4 +73,5 @@ ports = range(1, 65535)
 | colorama | https://pypi.org/project/colorama/
 | requests | https://pypi.org/project/requests/
 |  urlib   | https://docs.python.org/3/library/urllib.html
+|  argparse | https://docs.python.org/3/library/argparse.html
 
