@@ -1,9 +1,18 @@
 # IP-SOCKET-PYTHON
 
-A scanner with socket, with information about a particular ip or url of a website.
+A scanner with socket, with information about a particular `IP` or `URL` of a website.
 
->[!NOTE]
-> The script is in development, any errors can be fixed in the future.
+```sh
+  ██████     |
+▒██    ▒     | BY: suchsoak
+░ ▓██▄       | GitHub: https://github.com/suchsoak
+  ▒   ██▒    | v:1.0.1
+▒██████▒▒    |
+▒ ▒▓▒ ▒ ░    |
+░ ░▒  ░      |
+░  ░  ░      |
+      ░      |
+```
 
 # How to install
 
@@ -11,27 +20,15 @@ A scanner with socket, with information about a particular ip or url of a websit
 
 ```sh
    git clone https://github.com/suchsoak/IP-SOCKET-PYTHON.git
-```
-**After enter in the files, and put:**
 
-```sh
    chmod +X requirements.txt
-```
 
-```sh
-    pip install -r requirements.txt
-```
+   pip install -r requirements.txt
 
-**Now start the script:**
-
-```sh
-    python3 ip.py
+   python3 ip.py
 ```
 
 # Usage
-
->[!TIP]
->I recommended use IP
 
 ```sh
 
@@ -55,16 +52,6 @@ or
  python3 ip.py -u <url_target>
 ```
 
-## For ports, you can use a list or 1 by then, 65535
-
-```sh
- 
-#ports = [21, 22, 23, 25, 53, 80, 8080, 53, 110, 135, 139, 143, 70,  443, 445, 993, 995]
-
-ports = range(1, 65535)
-
-```
-
 | Libraries |  Links |
 | ------ | ------ |
 | socket | https://docs.python.org/3/library/socket.html
@@ -72,6 +59,11 @@ ports = range(1, 65535)
 | python-whois | https://pypi.org/project/python-whois/
 | colorama | https://pypi.org/project/colorama/
 | requests | https://pypi.org/project/requests/
-|  urlib   | https://docs.python.org/3/library/urllib.html
-|  argparse | https://docs.python.org/3/library/argparse.html
+| urlib   | https://docs.python.org/3/library/urllib.html
+| argparse | https://docs.python.org/3/library/argparse.html
+| OS | https://docs.python.org/pt-br/3/library/os.html
+| sys | https://docs.python.org/3/library/sys.html 
 
+ License & Copyright
+-----------------------
+This open source project is licensed under the `MIT License`.
