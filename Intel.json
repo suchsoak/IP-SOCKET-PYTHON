@@ -1,0 +1,13 @@
+{ "Information": [
+
+    { "version": "1.0.1",
+      "python": "Python 3.11.9",
+      "name": "IP-SOCKET-PYTHON",
+      "file": "ip.py",
+      "libary": "socket, argparse, whois, time, requests, geocoder, os, colorama and urlparse.",
+      "github": "www.github.com/suchsoak",
+      "Author": "suchsoak"
+     }
+ ]
+ 
+ }
