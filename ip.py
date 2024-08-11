@@ -1,12 +1,21 @@
-import socket 
+import socket #Discover TCP/UDP
 import argparse
-import whois
-import time
-import requests
-import geocoder
-import colorama
+import whois #Discover information on the internet
+import time #Put the time in the script
+import requests 
+import sys #Stop Script
+import geocoder #Discover geolocation
+import os 
+import colorama #Color in the script
 from colorama import Fore, Style
 from urllib.request import urlparse
+
+clear = os.system("clear")
+
+if clear == True:
+    os.system("cls")
+else:
+    print("")
 
 colorama.init() 
 print(Fore.RED)
@@ -16,7 +25,7 @@ s1 = '''
   ██████     |
 ▒██    ▒     | BY: suchsoak
 ░ ▓██▄       | GitHub: https://github.com/suchsoak
-  ▒   ██▒    | v:1.0.0
+  ▒   ██▒    | v:1.0.1
 ▒██████▒▒    |
 ▒ ▒▓▒ ▒ ░    |
 ░ ░▒  ░      |
@@ -31,22 +40,35 @@ print("\n")
 parser = argparse.ArgumentParser()
 
 parser.add_argument('-u', '--url', help='url', dest='target')
-parser.add_argument('-i', '--ip', help='ip', dest='target')
+parser.add_argument('-i', '--ip', help='ip', dest='target2')
 
 args = parser.parse_args()
+
+try: #IP information
+    if args.target2:
+        ip_info1 = args.target2
+        info_ip1 = os.system(f'curl ipinfo.io/{args.target2}')
+        if info_ip1 != 0:
+            print("Error getting IP information.")
+            sys.exit(1)
+        else:
+            sys.exit(0)
+
+except KeyboardInterrupt:
+    print("KeyboardInterrup")
 
 try:
     if args.target:
         Host = args.target
     else:
-        Host = input("Put URL:")
+        os.system("python3 ip.py -h") 
+        sys.exit()
 
 except KeyboardInterrupt:
      print("KeyboardInterrup")
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-
 
 print(Style.RESET_ALL)
 
